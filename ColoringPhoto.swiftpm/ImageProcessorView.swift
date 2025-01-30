@@ -16,7 +16,7 @@ struct ImageProcessorView: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 300)
+                    .frame(height: 600)
                 
                 // 📌 새 사진 선택 버튼 추가
                 Button("📸 다른 사진 선택하기") {
@@ -36,7 +36,7 @@ struct ImageProcessorView: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 300)
+                    .frame(height: 600)
 
                 Button("🎨 윤곽선 추출") {
                     applyContourEffect()

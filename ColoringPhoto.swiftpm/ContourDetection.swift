@@ -24,7 +24,7 @@ class ContourDetection {
                 let outputImage = renderer.image { ctx in
                     let context = ctx.cgContext
                     context.setStrokeColor(UIColor.black.cgColor)
-                    context.setLineWidth(2.0)
+                    context.setLineWidth(10.0)
 
                     func drawContours(_ contour: VNContour) {
                         let points = contour.normalizedPoints
